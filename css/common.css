@@ -19,7 +19,7 @@ header div{
 .logo{
     width: 70px;
     height: 70px;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
 }
 .navbar{
