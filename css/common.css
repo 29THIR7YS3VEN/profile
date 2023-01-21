@@ -26,6 +26,9 @@ header div{
     justify-content: right;
     align-items: center;
 }
+.navbar, .icon-container{
+    width: 30%;
+}
 .navlink{
     color: black;
     text-decoration: none;
