@@ -4,6 +4,12 @@
     font-family: "Roboto Condensed";
     transition: .1s;
 }
+body{
+    overflow-x: hidden;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
 header{
     position: fixed;
     display: flex;

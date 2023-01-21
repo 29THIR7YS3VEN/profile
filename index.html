@@ -52,7 +52,7 @@
                 <button class="button-main">Contact</button>
             </div>
         </header>
-        <section class="banner">
+        <section class="banner f">
             <div>
                 <h1 class="big-header"><em>I AM EMMANUEL ALABI<br><span class="auto-type blue"></span></em></h1>
                 <br>
@@ -70,7 +70,7 @@
                 loop: true
             })
         </script>
-        <section class="about">
+        <section class="about s">
             <h1 class="big-header blue"><em>ABOUT ME</em></h1><br>
             <p>I build things for the web, code solutions for problems, study enthusiastically about AI and machine learning, watch cryptocurrencies, and am an all-round tech fanatic. <br><br>
                 I started coding in 2016, learning from the likes of freeCodeCamp and w3Schools, building my skills along the way. I take interest in a range of areas in tech, from web development with HTML and CSS to artificial intelligence with Python. <br><br>
@@ -78,6 +78,17 @@
                 Feel free to reach out to me in any of my listed socials or in the contact form below for collaboration or job opportunities in web or app development, or just to say hi.</em></h1>
         </p>
         </section>
+
+
+
+
+        <script>
+            var firstsec = document.getElementById('f');
+                var secondsec = document.getElementById('s');
+                document.onscroll = function scroll() {
+                secondsec.scrollIntoView({behavior: "smooth"});
+            }
+        </script>
         <script src="js/script.js"></script>
     </body>
 </html>
