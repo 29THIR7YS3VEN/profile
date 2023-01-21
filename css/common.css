@@ -68,3 +68,10 @@ header div{
 .blue{
     color : var(--primary_blue);
 }
+.about{
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
