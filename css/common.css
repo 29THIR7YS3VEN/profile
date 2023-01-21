@@ -23,7 +23,7 @@ header div{
 }
 .navbar{
     justify-content: right;
-    align-items: center;
+    align-items: center.;
 }
 .navlink{
     color: black;
