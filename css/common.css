@@ -1,13 +1,13 @@
 *{
     padding: 0px;
     margin: 0px;
-    font-family: "Roboto Condensed"
+    font-family: "Roboto Condensed";
+    transition: .1s;
 }
 header{
     display: flex;
     width: 100vw;
     height: 70px;
-    box-shadow: 0px 2px 5px silver;
     justify-content: space-between;
     align-items: center;
     box-sizing: border-box;
