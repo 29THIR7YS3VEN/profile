@@ -6,6 +6,7 @@
 
         <!--stylsheets-->
         <link rel="stylesheet" href="css/utils.css">
+        <link rel="stylesheet" href="css/animation.css">
         <link rel="stylesheet" href="css/common.css">
         <link rel="stylesheet" href="css/light.css" media="(prefers-color-scheme: light)">
         <link rel="stylesheet" href="css/dark.css" media="(prefers-color-scheme: dark)">
@@ -31,7 +32,7 @@
     </head>
     <body>
         <header>
-            <div class="icon-container">
+            <div class="icon-container u-fade-type-left js-window-trigger">
                 <dark-mode-toggle
                     id="dark-mode-toggle-1"
                     appearance="toggle"
@@ -44,8 +45,8 @@
                 <i class="fa-brands fa-spotify"></i>
                 <i class="fa-brands fa-stack-overflow"></i>
             </div>
-            <div class="logo"></div>
-            <div class="navbar">
+            <div class="logo u-fade-type-top js-window-trigger"></div>
+            <div class="navbar u-fade-type-right js-window-trigger">
                 <a class="navlink" href="#">Home</a>
                 <a class="navlink" href="#">Portfolio</a>
                 <a class="navlink" href="#">Blog</a>
@@ -53,7 +54,7 @@
             </div>
         </header>
         <section class="banner">
-            <div>
+            <div class="js-window-trigger u-fade-type-static">
                 <h1 class="big-header"><em>I AM EMMANUEL ALABI<br><span class="auto-type blue"></span></em></h1>
                 <br>
                 <button class="button-main">My Work</button>
@@ -70,5 +71,7 @@
                 loop: true
             })
         </script>
+
+        <script src="js/script.js"></script>
     </body>
 </html>
