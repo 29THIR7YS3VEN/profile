@@ -12,7 +12,6 @@ header{
     align-items: center;
 }
 header div{
-    box-sizing: border-box;
     padding: 0px 50px;
     width: 90%;
     display: flex;
