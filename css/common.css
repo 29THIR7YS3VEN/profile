@@ -43,7 +43,7 @@ header div{
     margin-left: 5px;
     background-color: var(--primary_blue);
     border: none;
-    font-size: 18px;
+    font-size: 15px;
     text-transform: uppercase;
     box-shadow: 5px 5px 0px black;
 }
