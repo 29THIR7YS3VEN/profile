@@ -12,6 +12,8 @@ header{
     align-items: center;
 }
 header div{
+    box-sizing: border-box;
+    padding: 0px 50px;
     width: 90%;
     display: flex;
 }
@@ -23,7 +25,7 @@ header div{
 }
 .navbar{
     justify-content: right;
-    align-items: center.;
+    align-items: center;
 }
 .navlink{
     color: black;
@@ -34,7 +36,8 @@ header div{
 }
 .button-main{
     padding: 10px;
-    margin: 5px;
+    margin-left: 5px;
     background-color: var(--primary_blue);
     border: none;
+    box-shadow: -10px -10px 0px black;
 }
