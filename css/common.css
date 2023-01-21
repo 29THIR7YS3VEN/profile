@@ -47,7 +47,7 @@ header div{
     text-transform: uppercase;
     box-shadow: -5px 5px 0px black;
 }
-.button-main{
+.button-main:hover{
     box-shadow: -2px 2px 0px black;
 }
 .fa-brands, .fa-solid{
