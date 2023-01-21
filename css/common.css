@@ -6,11 +6,32 @@
 header{
     display: flex;
     width: 100vw;
-    height: 100px;
+    height: 50px;
     box-shadow: 0px 2px 5px silver;
     justify-content: space-between;
     align-items: center;
 }
 header div{
     width: 90%;
+    display: flex;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    justify-content: right;
+}
+.navlink{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.button-main{
+    padding: 10px;
+    margin: 5px;
+    background-color: var(--primary_blue);
 }
