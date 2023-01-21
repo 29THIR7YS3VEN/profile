@@ -39,5 +39,7 @@ header div{
     margin-left: 5px;
     background-color: var(--primary_blue);
     border: none;
-    box-shadow: -10px -10px 0px black;
+    font-size: 18px;
+    text-transform: uppercase;
+    box-shadow: 5px 5px 0px black;
 }
