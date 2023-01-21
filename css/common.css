@@ -45,7 +45,7 @@ header div{
     border: none;
     font-size: 15px;
     text-transform: uppercase;
-    box-shadow: 5px 5px 0px black;
+    box-shadow: -5px 5px 0px black;
 }
 .fa-brands, .fa-solid{
     margin-left: 10px;
