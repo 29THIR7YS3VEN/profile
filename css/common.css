@@ -53,4 +53,14 @@ header div{
 .banner{
     width: 100vw;
     height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.big-header{
+    font-size: 40px;
+    font-weight: 700;
+}
+.blue{
+    color : var(--primary_blue);
 }
