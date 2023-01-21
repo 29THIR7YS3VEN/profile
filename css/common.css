@@ -28,6 +28,7 @@ header div{
 }
 .navbar, .icon-container{
     width: 30%;
+    align-items: center;
 }
 .navlink{
     color: black;
@@ -44,4 +45,7 @@ header div{
     font-size: 18px;
     text-transform: uppercase;
     box-shadow: 5px 5px 0px black;
+}
+.fa-brands, .fa-solid{
+    margin-left: 10px;
 }
