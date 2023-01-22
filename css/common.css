@@ -156,7 +156,6 @@ p{
     border: 1px solid var(--primary_blue);
 }
 footer{
-    padding: 100px;
     width: 100vw;
     background-color: var(--primary_blue);
 }
@@ -167,6 +166,6 @@ footer{
     justify-content: center;
 }
 input{
-    width: 50%;
-    height: 50px;
+    width: 40%;
+    height: 40px;
 }
