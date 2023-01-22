@@ -153,4 +153,5 @@ p{
 .h-blog-container{
     padding: 50px;
     margin: 20px 150px;
+    border: 1px solid var(--primary_blue);
 }
