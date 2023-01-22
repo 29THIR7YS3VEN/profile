@@ -147,3 +147,6 @@ p{
     width: 40%;
     padding: 20px;
 }
+.h-blog{
+    flex-direction: column;
+}
