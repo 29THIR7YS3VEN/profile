@@ -174,13 +174,14 @@ input{
 }
 
 
-
-
+a{
+    text-decoration: none;
+}
 .body{
     padding: 120px 200px;
 }
 .archive-container{
-    margin: 10px 200px;
+    margin: 10px 100px;
     padding: 50px;
     border-bottom: 1px black solid;
 }
