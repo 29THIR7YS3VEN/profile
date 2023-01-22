@@ -18,7 +18,7 @@
    }
    section{
       max-width: 95vw;
-      padding: 30px;
+      padding: 50px;
       text-align: justify;
    }
    .parent{
@@ -27,6 +27,9 @@
    }
    .parent div{
       width: 100%;
+   }
+   .project{
+      padding: 0px;
    }
    .project-container{
       display: block;
