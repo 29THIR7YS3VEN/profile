@@ -27,6 +27,7 @@
    }
    .parent{
       display: block;
+      max-width: 100%;
       padding: 0px;
    }
    .parent div{
