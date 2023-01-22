@@ -151,6 +151,6 @@ p{
     flex-direction: column;
 }
 .h-blog-container{
-    padding: 20px;
-    box-shadow: -5px 5px 0px black;
+    padding: 50px;
+    margin: 20px 100px;
 }
