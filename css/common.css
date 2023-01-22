@@ -156,6 +156,9 @@ p{
     border: 1px solid var(--primary_blue);
 }
 footer{
+    text-align: center;
+    color: white;
+    padding: 20px;
     width: 100vw;
     background-color: var(--primary_blue);
 }
