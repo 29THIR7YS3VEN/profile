@@ -18,9 +18,11 @@
    }
    section{
       max-width: 100vw;
-      padding: 20px;
+      padding: 30px;
+      text-align: justify;
    }
    .parent{
       display: block;
+      padding: 0px;
    }
 }
