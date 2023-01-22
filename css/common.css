@@ -94,6 +94,7 @@ section{
     justify-content: center;
     width: 100vw;
     padding: 20px 120px;
+    flex-wrap: wrap;
 }
 .parent div{
     padding: 30px;
@@ -104,6 +105,10 @@ section{
     color: white;
     box-shadow: -5px 5px 0px black;
     font-weight: 200 !important;
+}
+.techs{
+    display: flex;
+    justify-content: center;
 }
 p{
     font-size: 17px;
