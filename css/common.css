@@ -150,3 +150,7 @@ p{
 .h-blog{
     flex-direction: column;
 }
+.h-blog-container{
+    padding: 20px;
+    box-shadow: -5px 5px 0px black;
+}
