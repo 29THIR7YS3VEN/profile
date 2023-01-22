@@ -11,6 +11,9 @@
       background-color: transparent;
       position: fixed;
    }
+   .openBtn{
+      display: block;
+  }
    .icon-container{
       display: none;
    }

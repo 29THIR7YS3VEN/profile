@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/utils.css">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/sidebar.css">
     <link rel="stylesheet" href="css/light.css" media="(prefers-color-scheme: light)">
     <link rel="stylesheet" href="css/dark.css" media="(prefers-color-scheme: dark)">
 
@@ -35,6 +36,22 @@
 </head>
 
 <body>
+    <div id="mySidenav" class="sidenav" onclick="closeNav()">
+        <a href="#">Home</a>
+        <a href="#">Portfolio/a>
+            <a href="#">Blog</a>
+            <a href="#">Contact</a>
+            <div style="display: flex;">
+                <dark-mode-toggle id="dark-mode-toggle-1" appearance="toggle"></dark-mode-toggle>
+                <i class="fa-solid fa-envelope"></i>
+                <i class="fa-brands fa-github"></i>
+                <i class="fa-brands fa-gitlab"></i>
+                <i class="fa-brands fa-discord"></i>
+                <i class="fa-brands fa-reddit"></i>
+                <i class="fa-brands fa-spotify"></i>
+                <i class="fa-brands fa-stack-overflow"></i>
+            </div>
+    </div>
     <header>
         <div class="icon-container">
             <dark-mode-toggle id="dark-mode-toggle-1" appearance="toggle"></dark-mode-toggle>
@@ -74,7 +91,8 @@
     </script>
     <section class="about">
         <h1 class="big-header blue"><em>About Me</em></h1><br>
-        <p class="about-text">I build things for the web, code solutions for problems, study enthusiastically about AI and machine
+        <p class="about-text">I build things for the web, code solutions for problems, study enthusiastically about AI
+            and machine
             learning, watch cryptocurrencies, and am an all-round tech fanatic. <br><br>
             I started coding in 2016, learning from the likes of freeCodeCamp and w3Schools, building my skills along
             the way. I take interest in a range of areas in tech, from web development with HTML and CSS to artificial
@@ -133,9 +151,11 @@
             <div class="project-info">
                 <h1 class="project-title blue">Photographer Portfolio Template</h1>
                 <p class="project-category">UI/UX Template</p><br><br>
-                <p class="project-desc">A clean, responsive portfolio template for photographers or creative artists.</p>
+                <p class="project-desc">A clean, responsive portfolio template for photographers or creative artists.
+                </p>
                 <br>
-                <a href="https://thir7ys3ven-photography.netlify.app/"><button class="button-main"> See Project</button></a>
+                <a href="https://thir7ys3ven-photography.netlify.app/"><button class="button-main"> See
+                        Project</button></a>
             </div>
         </div>
         <!--PROJECT-->
@@ -144,9 +164,11 @@
             <div class="project-info">
                 <h1 class="project-title blue">Sendthis4me</h1>
                 <p class="project-category">Web Development</p><br><br>
-                <p class="project-desc">An experimental python web application that theoretically helps people to find someone to deliver their parcel</p>
+                <p class="project-desc">An experimental python web application that theoretically helps people to find
+                    someone to deliver their parcel</p>
                 <br>
-                <a href="https://github.com/29THIR7YS3VEN/sendthis4me"><button class="button-main"> See Project</button></a>
+                <a href="https://github.com/29THIR7YS3VEN/sendthis4me"><button class="button-main"> See
+                        Project</button></a>
             </div>
         </div>
         <!--PROJECT-->
@@ -157,7 +179,8 @@
                 <p class="project-category">Web Development</p><br><br>
                 <p class="project-desc">Javascript Programme that converts speech to text</p>
                 <br>
-                <a href="https://singular-sundae-d39f22.netlify.app/"><button class="button-main"> See Project</button></a>
+                <a href="https://singular-sundae-d39f22.netlify.app/"><button class="button-main"> See
+                        Project</button></a>
             </div>
         </div>
         <br><br>
@@ -173,7 +196,9 @@
             <h1 class="blue">To Become A Formidable Web Developer</h1>
             <p>Sunday, 1/22/2023</p>
             <br><br>
-            <p>Becoming a formidable web developer requires a combination of technical skills, creativity, and a willingness to continuously learn and adapt. Here, however, are some key steps to take on your journey to becoming a top web developer...</p>
+            <p>Becoming a formidable web developer requires a combination of technical skills, creativity, and a
+                willingness to continuously learn and adapt. Here, however, are some key steps to take on your journey
+                to becoming a top web developer...</p>
             <br><br>
             <button class="button-main">READ MORE</button>
         </div>
@@ -182,7 +207,9 @@
             <h1 class="blue">ChatGPT and Developers</h1>
             <p>Monday, 1/23/2023</p>
             <br><br>
-            <p>GPT, or Generative Pre-trained Transformer, is a powerful language model developed by OpenAI that can be used to empower developers in a variety of ways. This article will explore some of the ways in which GPT can be used to make the lives of developers easier and more efficient...</p>
+            <p>GPT, or Generative Pre-trained Transformer, is a powerful language model developed by OpenAI that can be
+                used to empower developers in a variety of ways. This article will explore some of the ways in which GPT
+                can be used to make the lives of developers easier and more efficient...</p>
             <br><br>
             <button class="button-main">READ MORE</button>
         </div>
@@ -192,13 +219,25 @@
     <footer>
         <div class="email-form">
             <h1>Want to get in touch?</h1>
-            <p>If you have collaboration/job opportunities, or just want to say hi, input your address below and I'll send you an email</p>
+            <p>If you have collaboration/job opportunities, or just want to say hi, input your address below and I'll
+                send you an email</p>
             <br><br>
             <input type="email" name="email" id="email">
         </div><br><br>
         <p>&copy; Emmanuel Alabi 2023.</p>
     </footer>
     <script src="js/script.js"></script>
+    <script>
+        /* Open the sidenav */
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "100%";
+        }
+
+        /* Close/hide the sidenav */
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
 </body>
 
 </html>

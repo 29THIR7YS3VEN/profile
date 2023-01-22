@@ -20,6 +20,9 @@ header{
     box-sizing: border-box;
     padding: 0px 50px;
 }
+.openBtn{
+    display: none;
+}
 header div{
     display: flex;
 }
@@ -182,5 +185,5 @@ a{
 }
 .archive-container{
     padding: 50px;
-    border-bottom: 1px black solid;
+    border-bottom: 1px solid;
 }

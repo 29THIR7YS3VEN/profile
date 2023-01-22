@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/utils.css">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/sidebar.css">
     <link rel="stylesheet" href="css/light.css" media="(prefers-color-scheme: light)">
     <link rel="stylesheet" href="css/dark.css" media="(prefers-color-scheme: dark)">
 
@@ -35,7 +36,24 @@
 </head>
 
 <body>
+    <div id="mySidenav" class="sidenav" onclick="closeNav()">
+        <a href="#">Home</a>
+        <a href="#">Portfolio/a>
+            <a href="#">Blog</a>
+            <a href="#">Contact</a>
+            <div style="display: flex;">
+                <dark-mode-toggle id="dark-mode-toggle-1" appearance="toggle"></dark-mode-toggle>
+                <i class="fa-solid fa-envelope"></i>
+                <i class="fa-brands fa-github"></i>
+                <i class="fa-brands fa-gitlab"></i>
+                <i class="fa-brands fa-discord"></i>
+                <i class="fa-brands fa-reddit"></i>
+                <i class="fa-brands fa-spotify"></i>
+                <i class="fa-brands fa-stack-overflow"></i>
+            </div>
+    </div>
     <header>
+        <span class="openBtn" onclick="openNav()">&#9776;</span>
         <div class="icon-container">
             <dark-mode-toggle id="dark-mode-toggle-1" appearance="toggle"></dark-mode-toggle>
             <i class="fa-solid fa-envelope"></i>
@@ -48,7 +66,7 @@
         </div>
         <div class="logo"></div>
         <div class="navbar">
-            <a class="navlink" href="#">Home</a>
+            <a class="navlink" href="index.html">Home</a>
             <a class="navlink" href="#">Portfolio</a>
             <a class="navlink" href="#">Blog</a>
             <button class="button-main">Contact</button>
@@ -63,9 +81,11 @@
             <div class="project-info">
                 <h1 class="project-title blue">Photographer Portfolio Template</h1>
                 <p class="project-category">UI/UX Template</p><br><br>
-                <p class="project-desc">A clean, responsive portfolio template for photographers or creative artists.</p>
+                <p class="project-desc">A clean, responsive portfolio template for photographers or creative artists.
+                </p>
                 <br>
-                <a href="https://thir7ys3ven-photography.netlify.app/"><button class="button-main"> See Project</button></a>
+                <a href="https://thir7ys3ven-photography.netlify.app/"><button class="button-main"> See
+                        Project</button></a>
             </div>
         </div>
         <!--PROJECT-->
@@ -74,9 +94,11 @@
             <div class="project-info">
                 <h1 class="project-title blue">Sendthis4me</h1>
                 <p class="project-category">Web Development</p><br><br>
-                <p class="project-desc">An experimental python web application that theoretically helps people to find someone to deliver their parcel</p>
+                <p class="project-desc">An experimental python web application that theoretically helps people to find
+                    someone to deliver their parcel</p>
                 <br>
-                <a href="https://github.com/29THIR7YS3VEN/sendthis4me"><button class="button-main"> See Project</button></a>
+                <a href="https://github.com/29THIR7YS3VEN/sendthis4me"><button class="button-main"> See
+                        Project</button></a>
             </div>
         </div>
         <!--PROJECT-->
@@ -87,7 +109,8 @@
                 <p class="project-category">Web Development</p><br><br>
                 <p class="project-desc">Javascript Programme that converts speech to text</p>
                 <br>
-                <a href="https://singular-sundae-d39f22.netlify.app/"><button class="button-main"> See Project</button></a>
+                <a href="https://singular-sundae-d39f22.netlify.app/"><button class="button-main"> See
+                        Project</button></a>
             </div>
         </div>
         <br><br>
@@ -122,7 +145,8 @@
             <div class="archive-container">
                 <h1 class="blue">actor-degrees</h1>
                 <p>Artificial Intellegence, Python</p><br><br>
-                <p>AI command-line program in python that uses breadth-first search to find how many 'degrees of separation' two actors are. Made for cs50AI</p>
+                <p>AI command-line program in python that uses breadth-first search to find how many 'degrees of
+                    separation' two actors are. Made for cs50AI</p>
             </div>
         </a>
         <!--archive-->
@@ -146,7 +170,9 @@
             <div class="archive-container">
                 <h1 class="blue">Plurality</h1>
                 <p>Algorithm, C</p><br><br>
-                <p>Plurality, done for CS50x - Algorithm written in C that identifies the winner based on a certain amount of candidates and votesPlurality, done for CS50x - Algorithm written in C that identifies the winner based on a certain amount of candidates and votes</p>
+                <p>Plurality, done for CS50x - Algorithm written in C that identifies the winner based on a certain
+                    amount of candidates and votesPlurality, done for CS50x - Algorithm written in C that identifies the
+                    winner based on a certain amount of candidates and votes</p>
             </div>
         </a>
         <!--archive-->
@@ -158,5 +184,17 @@
             </div>
         </a>
     </div>
+    <script>
+        /* Open the sidenav */
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "100%";
+        }
+
+        /* Close/hide the sidenav */
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
 </body>
+
 </html>
