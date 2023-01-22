@@ -126,9 +126,9 @@ p{
     display: flex;
 }
 .project-picture{
-    width: 60%;
+    width: 200px;
     margin: 20px;
-    height: 300px;
+    height: 500px;
     background-position: center;
     background-size: cover;
     box-shadow: -5px 5px 0px black;
@@ -141,4 +141,7 @@ p{
 }
 .project-3{
     background-image: url("../images/Capture.PNG");
+}
+.project-info{
+    width: 40%;
 }
