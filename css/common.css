@@ -96,11 +96,12 @@ section{
     padding: 20px;
 }
 .parent div{
-    padding: 10px;
-    margin: 10px;
+    padding: 20px;
+    margin: 20px;
     width: 25%;
     background-color: var(--primary_blue);
     color: white;
+    box-shadow: -5px 5px 0px black;
 }
 p{
     font-size: 15px;
