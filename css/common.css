@@ -75,7 +75,7 @@ header div{
     color : var(--primary_blue);
 }
 section{
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     max-width: 100vw;
@@ -109,11 +109,32 @@ section{
     display: flex;
     justify-content: center;
     font-size: 40px;
-    margin: 50px;
+    margin: 20px 50px;
 }
 p{
     font-size: 17px;
 }
 .about-text{
     width: 50vw;
+}
+.project-container{
+    padding: 100px;
+    display: flex;
+}
+.project-picture{
+    width: 60%;
+    margin: 20px;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    box-shadow: -5px 5px 0px black;
+}
+.project-1{
+    background-image: url("../images/Capture1.PNG");
+}
+.project-2{
+    background-image: url("../images/Capture2.PNG");
+}
+.project-3{
+    background-image: url("../images/Capture.PNG");
 }
