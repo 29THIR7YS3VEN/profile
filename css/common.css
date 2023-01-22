@@ -104,5 +104,7 @@ section{
 }
 p{
     font-size: 15px;
+}
+.about-text{
     width: 50vw;
 }
