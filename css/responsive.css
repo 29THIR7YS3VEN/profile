@@ -1,8 +1,6 @@
 @media only screen 
    and (max-width : 420px) {
-      *{
-         box-sizing: border-box;
-      }
+
    header{
       justify-content: center;
       background-color: transparent;
@@ -30,7 +28,7 @@
       padding: 0px;
    }
    .parent div{
-      width: 100%;
+      width: 90%;
    }
    .project{
       padding: 0px;
@@ -39,11 +37,14 @@
       display: block;
    }
    .project-picture{
-      width: 100%;
+      width: 90%;
       height: 300px;
       margin: 0px;
    }
    .project-info{
       width: 100%;
+   }
+   .h-blog{
+      padding: 0px;
    }
 }
