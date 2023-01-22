@@ -117,6 +117,9 @@ p{
 .about-text{
     width: 50vw;
 }
+.project{
+    flex-direction: column;
+}
 .project-container{
     padding: 100px;
     display: flex;
