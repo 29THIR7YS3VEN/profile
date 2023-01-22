@@ -28,7 +28,7 @@
       padding: 0px;
    }
    .parent div{
-      width: 100%;
+      width: 90%;
    }
    .project{
       padding: 0px;
@@ -37,7 +37,7 @@
       display: block;
    }
    .project-picture{
-      width: 90%;
+      width: 100%;
       height: 300px;
       margin: 0px;
    }
