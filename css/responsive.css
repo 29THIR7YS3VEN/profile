@@ -26,7 +26,7 @@
    section{
       box-sizing: border-box;
       max-width: 100vw;
-      padding: 50px;
+      padding: 30px;
    }
    .parent{
       display: block;
