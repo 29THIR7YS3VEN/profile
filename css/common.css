@@ -108,8 +108,8 @@ section{
 .techs{
     display: flex;
     justify-content: center;
-    font-size: 60px;
-    margin: 40px;
+    font-size: 20px;
+    margin: 50px;
 }
 p{
     font-size: 17px;
