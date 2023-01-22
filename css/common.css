@@ -179,3 +179,8 @@ input{
 .body{
     padding: 120px 200px;
 }
+.archive-container{
+    margin: 10px 200px;
+    padding: 50px;
+    border-bottom: 1px black solid;
+}
