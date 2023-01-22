@@ -56,6 +56,16 @@ header div{
     text-transform: uppercase;
     box-shadow: -5px 5px 0px black;
 }
+.button-sec{
+    padding: 10px;
+    margin-left: 5px;
+    background-color: white;
+    border: none;
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    box-shadow: -5px 5px 0px black;
+}
 .button-main:hover{
     box-shadow: -2px 2px 0px black;
 }
