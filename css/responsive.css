@@ -3,6 +3,9 @@
       *{
          box-sizing: border-box;
       }
+      body{
+         box-sizing: border-box;
+      }
    header{
       justify-content: center;
       background-color: transparent;
