@@ -70,6 +70,7 @@ header div{
 .big-header{
     font-size: 60px;
     font-weight: 700;
+    text-transform: uppercase;
 }
 .blue{
     color : var(--primary_blue);
