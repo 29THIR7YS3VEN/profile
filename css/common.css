@@ -92,12 +92,15 @@ section{
     box-sizing: border-box;
     display: flex;
     justify-content: center;
+    width: 100vw;
+    padding: 20px;
 }
 .parent div{
     padding: 10px;
     margin: 10px;
-    width: 50px;
+    width: 25%;
     background-color: var(--primary_blue);
+    color: white;
 }
 p{
     font-size: 15px;
