@@ -21,14 +21,13 @@
       box-sizing: border-box;
       max-width: 100vw;
       padding: 50px;
-      text-align: justify;
    }
    .parent{
       display: block;
       padding: 0px;
    }
    .parent div{
-      width: 90%;
+      width: 100%;
    }
    .project{
       padding: 0px;
@@ -44,7 +43,7 @@
    .project-info{
       width: 100%;
    }
-   .h-blog{
-      padding: 0px;
+   .h-blog-container{
+      padding: 10px 0px;
    }
 }
