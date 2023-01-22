@@ -99,7 +99,7 @@ section{
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 10px;
     grid-row-gap: 10px;
-    width: 50%;
+    width: 50vw;
 }
     
 .div1 { grid-area: 1 / 1 / 2 / 2; }
