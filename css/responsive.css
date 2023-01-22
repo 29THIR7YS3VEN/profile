@@ -1,4 +1,12 @@
 @media only screen 
    and (max-width : 420px) {
-   /* Styles here */
+   .icon-container{
+      display: none;
+   }
+   .navbar{
+      display: none;
+   }
+   .big-header{
+      font-size: 40px;
+   }
 }
