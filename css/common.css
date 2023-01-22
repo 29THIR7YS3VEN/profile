@@ -78,6 +78,7 @@ section{
     height: 100vh;
     display: flex;
     align-items: center;
+    max-width: 100vw;
 }
 .about{
     text-align: center;
