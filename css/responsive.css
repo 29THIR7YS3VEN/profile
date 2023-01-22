@@ -1,5 +1,8 @@
 @media only screen 
    and (max-width : 420px) {
+      *{
+         box-sizing: border-box;
+      }
    header{
       justify-content: center;
       background-color: transparent;
