@@ -94,7 +94,6 @@ section{
     justify-content: center;
     width: 100vw;
     padding: 20px 120px;
-    flex-wrap: wrap;
 }
 .parent div{
     padding: 30px;
