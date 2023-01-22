@@ -4,6 +4,7 @@
    header{
       justify-content: center;
       background-color: transparent;
+      position: fixed;
    }
    .icon-container{
       display: none;
@@ -44,6 +45,6 @@
       width: 100%;
    }
    .h-blog-container{
-      padding: 10px 0px;
+      margin: 10px 0px;
    }
 }
