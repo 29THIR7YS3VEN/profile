@@ -86,7 +86,6 @@ header div{
 .big-header{
     font-size: 60px;
     font-weight: 700;
-    text-transform: uppercase;
 }
 .top{
     line-height: 60px;
@@ -98,6 +97,7 @@ header div{
     -webkit-text-fill-color: transparent;
 }
 section{
+    padding: 50px 0px;
     min-height: 100vh;
     display: flex;
     align-items: center;
