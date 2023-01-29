@@ -59,4 +59,10 @@
    .body{
       padding: 100px 30px;
    }
+   .banner{
+      padding: 10px;
+   }
+   .flex{
+      display: block;
+   }
 }
