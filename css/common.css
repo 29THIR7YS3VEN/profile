@@ -99,7 +99,7 @@ header div{
     -webkit-text-fill-color: transparent;
 }
 section{
-    padding: 50px 50px;
+    padding: 50px 0px;
     min-height: 100vh;
     display: flex;
     align-items: center;
