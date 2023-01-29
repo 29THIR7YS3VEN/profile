@@ -82,10 +82,12 @@ header div{
     justify-content: left;
 }
 .big-header{
-    line-height: 60px;
     font-size: 60px;
     font-weight: 700;
     text-transform: uppercase;
+}
+.top{
+    line-height: 60px;
 }
 .blue{
     background: #00FFBB;
