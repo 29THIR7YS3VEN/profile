@@ -110,10 +110,13 @@ section{
     flex-direction: column;
     justify-content: left;
 }
+.flex{
+    display: flex;
+    align-items: center;
+}
 .imgme{
-    float: right;
     height: 300px;
-    width: 150px;
+    width: auto;
 }
 .skills{
     flex-direction: column;
