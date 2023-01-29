@@ -169,7 +169,7 @@ p{
     height: 400px;
     background-position: center;
     background-size: cover;
-    box-shadow: -5px 5px 0px black;
+    border-radius: 10px;
 }
 .project-1{
     background-image: url("../images/Capture1.PNG");
