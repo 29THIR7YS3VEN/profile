@@ -49,7 +49,7 @@ header div{
 .button-main{
     padding: 10px;
     margin-left: 5px;
-    background: radial-gradient(ellipse farthest-corner at center center, #00FFBB 0%, #9C59FF 100%);
+    background: linear-gradient(#00FFBB 0%, #9C59FF 100%);
     border: none;
     color: white;
     font-size: 15px;
