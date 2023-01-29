@@ -31,6 +31,8 @@ header div{
     height: 70px;
     background-size: contain;
     background-position: center;
+    font-size: 50px;
+    font-weight: 700;
 }
 .navbar{
     justify-content: right;
