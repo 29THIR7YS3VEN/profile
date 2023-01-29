@@ -91,6 +91,10 @@ header div{
     line-height: 70px;
     font-size: 70px
 }
+.bottom{
+    line-height: 70px;
+    font-size: 60px
+}
 .blue{
     background: #00FFBB;
     background: radial-gradient(ellipse farthest-corner at center center, #00FFBB 0%, #9C59FF 100%);
