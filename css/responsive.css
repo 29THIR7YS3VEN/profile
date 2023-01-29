@@ -65,4 +65,8 @@
    .flex{
       display: block;
    }
+   .imgme{
+      width: 100%;
+      height: auto;
+   }
 }
