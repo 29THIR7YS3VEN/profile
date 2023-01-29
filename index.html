@@ -37,8 +37,9 @@
 <body>
     <div id="mySidenav" class="sidenav" onclick="closeNav()">
         <a href="#">Home</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="blog.html">Blog</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
         <div style="display: flex; justify-content: center;">
             <dark-mode-toggle permanent id="dark-mode-toggle-1" appearance="toggle"></dark-mode-toggle>
             <i class="fa-solid fa-envelope"></i>
@@ -93,7 +94,7 @@
             loop: true
         })
     </script>
-    <section class="about">
+    <section class="about" id="about">
         <h1 class="big-header blue">About Me</h1><br>
         <div class="flex">
             <div class="about-container">
@@ -107,7 +108,7 @@
             <img src="images/IMG_25660129_142748.jpg" alt="me" class="imgme">
         </div>
     </section>
-    <section class="skills">
+    <section class="skills" id="skills">
         <h1 class="big-header blue">Skills</h1>
         <p>When buidling web projects or apps, I adhere to these principles which make my websites both unique and
             scaleable.</p>
@@ -145,7 +146,7 @@
             <i class="fa-brands fa-angular"></i>
         </div>
     </section>
-    <section class="project">
+    <section class="project" id="projects">
         <h1 class="big-header blue">Projects</h1>
         <p>Here are some of the projects I've been working on in my free time.</p>
         <br><br>
@@ -191,38 +192,6 @@
         <button class="button-main">See All Projects</button>
     </section>
     <br>
-    <section class="h-blog">
-        <h1 class="big-header blue"><em>Recent Blog Posts</em></h1>
-        <p>When I'm not coding, I write a blog in hopes that it will inform, or inspire someone, somewhere.</p>
-        <br><br>
-        <!--POST-->
-        <div class="h-blog-container">
-            <h1 class="blue">To Become A Formidable Web Developer</h1>
-            <p>Sunday, 1/22/2023</p>
-            <br><br>
-            <p>Becoming a formidable web developer requires a combination of technical skills, creativity, and a
-                willingness to continuously learn and adapt. Here, however, are some key steps to take on your journey
-                to becoming a top web developer...</p>
-            <br><br>
-            <a href="00001.html">
-                <button class="button-main">READ MORE</button>
-            </a>
-        </div>
-        <!--POST-->
-        <div class="h-blog-container">
-            <h1 class="blue">ChatGPT and Developers</h1>
-            <p>Monday, 1/23/2023</p>
-            <br><br>
-            <p>GPT, or Generative Pre-trained Transformer, is a powerful language model developed by OpenAI that can be
-                used to empower developers in a variety of ways. This article will explore some of the ways in which GPT
-                can be used to make the lives of developers easier and more efficient...</p>
-            <br><br>
-            <a href="00002.html">
-                <button class="button-main">READ MORE</button>
-            </a>
-        </div>
-        <button class="button-main">SEE ALL BLOG POSTS</button>
-    </section>
     <br><br>
     <footer>
         <div class="email-form">
