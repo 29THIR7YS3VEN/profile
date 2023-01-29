@@ -19,7 +19,6 @@ header{
     align-items: center;
     box-sizing: border-box;
     padding: 0px 50px;
-    box-shadow: 1px 1px 5px silver;
 }
 .openBtn{
     display: none;
