@@ -88,7 +88,8 @@ header div{
     font-weight: 700;
 }
 .top{
-    line-height: 60px;
+    line-height: 70px;
+    font-size: 70px
 }
 .blue{
     background: #00FFBB;
