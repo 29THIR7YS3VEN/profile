@@ -75,6 +75,7 @@ header div{
 .banner{
     width: 100vw;
     height: 100vh;
+    padding: 0px 100px;
     display: flex;
     text-align: left;
     align-items: center;
@@ -86,7 +87,10 @@ header div{
     text-transform: uppercase;
 }
 .blue{
-    color : var(--primary_blue);
+    background: #00FFBB;
+    background: radial-gradient(ellipse farthest-corner at center center, #00FFBB 0%, #9C59FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 section{
     min-height: 100vh;
