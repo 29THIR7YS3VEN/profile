@@ -128,7 +128,8 @@ section{
     width: 25%;
     background-color: var(--primary_blue);
     color: white;
-    box-shadow: -5px 5px 0px black;
+    border-radius: 10px;
+    background: linear-gradient(to left, #00FFBB 0%, #9C59FF 100%);
     font-weight: 200 !important;
 }
 .techs{
